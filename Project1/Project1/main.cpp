@@ -2,6 +2,18 @@
 #include <memory>
 #define log(x) std::cout << x << std::endl
 
+// Importa perchè non ho ancora definito _MARIO_
+#ifndef _MARIO_
+#define _MARIO_
+//importazioni
+#endif
+
+// Skippa perchè ho già definito _MARIO_
+#ifndef _MARIO_
+#define _MARIO_
+//importazioni
+#endif
+
 // turorial https://www.youtube.com/watch?v=DTxHyVn0ODg
 
 class Entity {
